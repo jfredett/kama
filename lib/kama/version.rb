@@ -1,3 +1,3 @@
-module Kama
+class Kama
   VERSION = "0.0.1"
 end
