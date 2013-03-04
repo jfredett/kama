@@ -26,7 +26,7 @@ class Kama
       output << column_names
 
       @data.each do |obj|
-        output << column_names.map { |c| obj.send(c) }
+        output << column_names.map { |c| obj.send(c) || '' }
       end
     end
   end
